@@ -10,7 +10,10 @@ router.get('/add-product', (req, res, next) => {
   res.render('add-product',
     {
       pageTitle: "Add product",
-      path: "/admin/add-product"
+      path: "/admin/add-product",
+      formsCSS: true,
+      productsCSS: true,
+      activeAddProduct: true
     }
   )
 })

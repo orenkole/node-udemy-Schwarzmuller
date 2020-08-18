@@ -1,0 +1,9 @@
+<%- include('./includes/header.ejs') %>
+  <h1>Users</h1>
+  <ul>
+    <% for (user of users) { %>
+      <li><%= user.name %></li>
+    <% } %>
+  </ul>
+</body>
+</html>
